@@ -31,3 +31,18 @@ Les comportements des slimes sont les mêmes que dans mon implémentation en Pyt
 Les modèles 3D des *slimes* et de la nourriture ont été modélisés par mes soins
 
 ![Modèles 3D](unity2.png)
+
+
+# Observations
+- Certains caractères ont une influence importante sur la survie des créatures, ce qui se voit dans l'évolution rapide de ces  caractères dans la population.
+
+Par exemple, dans un premier temps, la taille des *slimes* n'a fait qu'augmenter, car elle leur permet de plus impressionner les potentiels rivaux + d'avoir de plus grandes réserves de nourriture.
+
+- L'allèle de ces caractères le plus favorisé dépend fortement des **lois physiques** arbitrairement imposées au jeu.
+
+Par exemple, après avoir observé que la taille des slimes ne faisaient qu'augmenter (signe qu'une taille la plus grande possible était très favorable), j'ai ajusté les lois physiques du monde pour que la taille joue un rôle plus pénalisant dans la quantité d'énergie dépensée à chaque tour pour se déplacer (plus précisément, je suis passé d'un modèle où l'énergie consommé par une créature de masse **m** est *linéaire* par rapport à **m** à un modèle où elle est *quadratique* par rapport à **m**)
+
+Dès lors, la taille plafonnait à une certaine valeur, signe que les slimes avaient atteint un équilibre, concernant ce caractère.
+
+
+
