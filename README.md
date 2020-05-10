@@ -20,4 +20,14 @@ Dans une première version, pour simplifier, le terrain de jeu est une grille di
 
 Ensuite, dans une volonté d'améliorer les performances et l'équilibre de la simulation, en permettant à tous les slimes d'agir en même temps, j'ai utilisé le module **Threading** de Python, en assignant chaque *slime* à un thread. Le résultat était cependant assez décevant, avec des performances plus mauvaises qu'avant. J'ai donc abandonné cette idée et j'en suis resté là pour mon implémentation en Python.
 
+![Interface statistique](stat.png)
+
 Je me suis alors interessé au moteur de jeu **Unity**, qui permet de contrôler, et de visualiser, facilement des objects en 3D (les fichiers *.cs* sont les fichiers en C# que j'ai écrits pour Unity).
+
+Les comportements des slimes sont les mêmes que dans mon implémentation en Python, à ceci près que j'ai plus développé les méchanismes d'attaque/fuite, car je pouvais mieux visualiser leur fonctionnement.
+
+![interface Unity](unity1.png)
+
+Les modèles 3D des *slimes* et de la nourriture ont été modélisés par mes soins
+
+![Modèles 3D](unity2.png)
