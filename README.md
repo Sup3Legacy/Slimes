@@ -1,4 +1,4 @@
-# Slimes
+# Slimes (Projet en attente d'idées)
 Simulation d'évolution d'une population de slimes
 
 # Introduction
@@ -44,5 +44,6 @@ Par exemple, après avoir observé que la taille des slimes ne faisaient qu'augm
 
 Dès lors, la taille plafonnait à une certaine valeur, signe que les slimes avaient atteint un équilibre, concernant ce caractère.
 
-
+# Pistes pour le futur
+Ayant travaillé sur les réseaux de neurones, je souhaiterais équiper les *slimes* de réseaux de neurones (*a priori* des réseaux hybrides linéaires/récursifs/convolutifs), qui leur permettent d'agir (donc bouger, se reproduire, attaquer, etc.) de façon plus autonome et "intelligente". Je pense qu'il faudrait déjà implémenter un environnement Python d'apprentissage par renforcement (comme le fait OpenAI [Site OpenAI](https://openai.com/blog/emergent-tool-use/). Ceci représente un projet particulièrement ambitieux, sur lequel je n'ai pas encore eu le temps de me pencher.
 
